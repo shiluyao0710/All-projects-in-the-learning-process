@@ -5,6 +5,9 @@
 项目简要描述框图：
     ![alt](https://github.com/shiluyao0710/All-projects-in-the-learning-process/blob/main/snake.png "贪吃蛇项目描述")  
 
+项目运行结果：  
+    ![alt](https://github.com/shiluyao0710/All-projects-in-the-learning-process/blob/main/result.png "贪吃蛇项目描述")  
+
 作者：sly  
 
 编程语言：C语言
