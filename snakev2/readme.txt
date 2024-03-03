@@ -3,7 +3,8 @@
 数据结构：  单链表  
 
 头文件：  
-	stdio.h、stdlib.h、Windows.h、time.h、conio.h、easyX图形库  
+
+stdio.h、stdlib.h、Windows.h、time.h、conio.h、easyX图形库  
 
 功能模块：  
 
