@@ -1,0 +1,142 @@
+﻿LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/FORCE”规范)
+gameLogic.obj : warning LNK4006: "int songTrack" (?songTrack@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int songONorOFF" (?songONorOFF@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int foodx" (?foodx@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int foody" (?foody@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int foodFlag" (?foodFlag@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int leftWall" (?leftWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int rightWall" (?rightWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int topWall" (?topWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int bottomWall" (?bottomWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int levelMax" (?levelMax@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int localLevel" (?localLevel@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int getScore" (?getScore@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int snakeColor" (?snakeColor@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int snakeSpeed" (?snakeSpeed@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int reserveSnake" (?reserveSnake@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "struct Snake * head" (?head@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "struct Snake * tail" (?tail@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int songTrack" (?songTrack@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int songONorOFF" (?songONorOFF@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int foodx" (?foodx@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int foody" (?foody@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int foodFlag" (?foodFlag@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int leftWall" (?leftWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int rightWall" (?rightWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int topWall" (?topWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int bottomWall" (?bottomWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int levelMax" (?levelMax@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int localLevel" (?localLevel@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int getScore" (?getScore@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int snakeColor" (?snakeColor@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int snakeSpeed" (?snakeSpeed@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int reserveSnake" (?reserveSnake@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "struct Snake * head" (?head@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "struct Snake * tail" (?tail@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int songTrack" (?songTrack@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int songONorOFF" (?songONorOFF@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int foodx" (?foodx@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int foody" (?foody@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int foodFlag" (?foodFlag@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int leftWall" (?leftWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int rightWall" (?rightWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int topWall" (?topWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int bottomWall" (?bottomWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int levelMax" (?levelMax@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int localLevel" (?localLevel@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int getScore" (?getScore@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int snakeColor" (?snakeColor@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int snakeSpeed" (?snakeSpeed@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int reserveSnake" (?reserveSnake@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "struct Snake * head" (?head@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "struct Snake * tail" (?tail@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int songTrack" (?songTrack@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int songONorOFF" (?songONorOFF@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int foodx" (?foodx@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int foody" (?foody@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int foodFlag" (?foodFlag@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int leftWall" (?leftWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int rightWall" (?rightWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int topWall" (?topWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int bottomWall" (?bottomWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int levelMax" (?levelMax@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int localLevel" (?localLevel@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int getScore" (?getScore@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int snakeColor" (?snakeColor@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int snakeSpeed" (?snakeSpeed@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int reserveSnake" (?reserveSnake@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "struct Snake * head" (?head@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "struct Snake * tail" (?tail@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+LINK : error LNK2001: 无法解析的外部符号 mainCRTDtartup
+backgroundMusic.obj : error LNK2019: 无法解析的外部符号 __imp___stdio_common_vsprintf，函数 _vsnprintf_l 中引用了该符号
+drawInference.obj : error LNK2001: 无法解析的外部符号 __imp___stdio_common_vsprintf
+scoreAccess.obj : error LNK2001: 无法解析的外部符号 __imp___stdio_common_vsprintf
+EasyXa.lib(EasyX.DrawOnWnd.obj) : error LNK2001: 无法解析的外部符号 memset
+backgroundMusic.obj : error LNK2001: 无法解析的外部符号 memset
+scoreAccess.obj : error LNK2001: 无法解析的外部符号 memset
+EasyXa.lib(EasyX.ImageFunc.obj) : error LNK2001: 无法解析的外部符号 memset
+EasyXa.lib(EasyX.Common.Memory.obj) : error LNK2001: 无法解析的外部符号 memset
+drawInference.obj : error LNK2019: 无法解析的外部符号 __imp_malloc，函数 "void __cdecl endInterface(void)" (?endInterface@@YAXXZ) 中引用了该符号
+snakeAction.obj : error LNK2001: 无法解析的外部符号 __imp_malloc
+drawInference.obj : error LNK2019: 无法解析的外部符号 strcpy，函数 "void __cdecl endInterface(void)" (?endInterface@@YAXXZ) 中引用了该符号
+food.obj : error LNK2019: 无法解析的外部符号 __imp_rand，函数 "void __cdecl produceFood(void)" (?produceFood@@YAXXZ) 中引用了该符号
+start.obj : error LNK2001: 无法解析的外部符号 __imp_rand
+gameLogic.obj : error LNK2019: 无法解析的外部符号 __imp__kbhit，函数 "int __cdecl ifKbhit(int)" (?ifKbhit@@YAHH@Z) 中引用了该符号
+gameLogic.obj : error LNK2019: 无法解析的外部符号 __imp__getch，函数 "int __cdecl getKey(int)" (?getKey@@YAHH@Z) 中引用了该符号
+scoreAccess.obj : error LNK2019: 无法解析的外部符号 __imp_fclose，函数 "void __cdecl getHighScore(void)" (?getHighScore@@YAXXZ) 中引用了该符号
+scoreAccess.obj : error LNK2019: 无法解析的外部符号 __imp_fopen，函数 "void __cdecl getHighScore(void)" (?getHighScore@@YAXXZ) 中引用了该符号
+scoreAccess.obj : error LNK2019: 无法解析的外部符号 __imp_fread，函数 "void __cdecl getHighScore(void)" (?getHighScore@@YAXXZ) 中引用了该符号
+scoreAccess.obj : error LNK2019: 无法解析的外部符号 __imp_fwrite，函数 "void __cdecl getHighScore(void)" (?getHighScore@@YAXXZ) 中引用了该符号
+snakeAction.obj : error LNK2019: 无法解析的外部符号 __imp_perror，函数 "void __cdecl addNode(int,int,int,int)" (?addNode@@YAXHHHH@Z) 中引用了该符号
+snakeAction.obj : error LNK2019: 无法解析的外部符号 __imp_free，函数 "void __cdecl deleteNode(void)" (?deleteNode@@YAXXZ) 中引用了该符号
+snakeAction.obj : error LNK2019: 无法解析的外部符号 __imp_exit，函数 "void __cdecl addNode(int,int,int,int)" (?addNode@@YAXHHHH@Z) 中引用了该符号
+start.obj : error LNK2019: 无法解析的外部符号 __imp_srand，函数 main 中引用了该符号
+start.obj : error LNK2019: 无法解析的外部符号 __imp__time64，函数 time 中引用了该符号
+EasyXa.lib(Image.obj) : error LNK2001: 无法解析的外部符号 __std_terminate
+EasyXa.lib(EasyX.InputBox.obj) : error LNK2001: 无法解析的外部符号 __std_terminate
+EasyXa.lib(EasyX.InputBox.obj) : error LNK2001: 无法解析的外部符号 __CxxFrameHandler3
+EasyXa.lib(EasyX.DrawOnImg.obj) : error LNK2001: 无法解析的外部符号 __CxxFrameHandler3
+MSVCRTD.lib(gshandlereh.obj) : error LNK2001: 无法解析的外部符号 __CxxFrameHandler3
+EasyXa.lib(Image.obj) : error LNK2001: 无法解析的外部符号 __CxxFrameHandler3
+EasyXa.lib(EasyX.obj) : error LNK2001: 无法解析的外部符号 __CxxFrameHandler3
+EasyXa.lib(EasyX.Var.obj) : error LNK2001: 无法解析的外部符号 __CxxFrameHandler3
+EasyXa.lib(EasyX.ImageFunc.obj) : error LNK2001: 无法解析的外部符号 __CxxFrameHandler3
+EasyXa.lib(EasyX.obj) : error LNK2019: 无法解析的外部符号 memcpy，函数 "public: __cdecl LINESTYLE::LINESTYLE(class LINESTYLE const &)" (??0LINESTYLE@@QEAA@AEBV0@@Z) 中引用了该符号
+EasyXa.lib(EasyX.DrawOnImg.obj) : error LNK2001: 无法解析的外部符号 memcpy
+EasyXa.lib(EasyX.GlobalMemory.obj) : error LNK2001: 无法解析的外部符号 memcpy
+EasyXa.lib(EasyX.ImageFunc.obj) : error LNK2019: 无法解析的外部符号 wcsrchr，函数 "public: static void __cdecl EasyX::ImageFunc::saveimage(char const *,class IMAGE *)" (?saveimage@ImageFunc@EasyX@@SAXPEBDPEAVIMAGE@@@Z) 中引用了该符号
+EasyXa.lib(EasyX.ImageFunc.obj) : error LNK2019: 无法解析的外部符号 wcsstr，函数 "private: static int __cdecl EasyX::ImageFunc::GetEncoderClsid(wchar_t const *,struct _GUID *)" (?GetEncoderClsid@ImageFunc@EasyX@@CAHPEB_WPEAU_GUID@@@Z) 中引用了该符号
+EasyXa.lib(EasyX.ImageFunc.obj) : error LNK2019: 无法解析的外部符号 _wcsupr_s，函数 "private: static int __cdecl EasyX::ImageFunc::GetEncoderClsid(wchar_t const *,struct _GUID *)" (?GetEncoderClsid@ImageFunc@EasyX@@CAHPEB_WPEAU_GUID@@@Z) 中引用了该符号
+EasyXa.lib(EasyX.ImageFunc.obj) : error LNK2019: 无法解析的外部符号 free，函数 "private: static int __cdecl EasyX::ImageFunc::GetEncoderClsid(wchar_t const *,struct _GUID *)" (?GetEncoderClsid@ImageFunc@EasyX@@CAHPEB_WPEAU_GUID@@@Z) 中引用了该符号
+EasyXa.lib(EasyX.ImageFunc.obj) : error LNK2019: 无法解析的外部符号 malloc，函数 "private: static int __cdecl EasyX::ImageFunc::GetEncoderClsid(wchar_t const *,struct _GUID *)" (?GetEncoderClsid@ImageFunc@EasyX@@CAHPEB_WPEAU_GUID@@@Z) 中引用了该符号
+MSVCRTD.lib(new_scalar.obj) : error LNK2001: 无法解析的外部符号 malloc
+EasyXa.lib(EasyX.ImageFunc.obj) : error LNK2019: 无法解析的外部符号 cos，函数 "public: static void __cdecl EasyX::ImageFunc::rotateimage(class IMAGE *,class IMAGE *,double,unsigned long,bool,bool)" (?rotateimage@ImageFunc@EasyX@@SAXPEAVIMAGE@@0NK_N1@Z) 中引用了该符号
+EasyXa.lib(EasyX.DrawOnImg.obj) : error LNK2001: 无法解析的外部符号 cos
+EasyXa.lib(EasyX.ImageFunc.obj) : error LNK2019: 无法解析的外部符号 floor，函数 "public: static void __cdecl EasyX::ImageFunc::rotateimage(class IMAGE *,class IMAGE *,double,unsigned long,bool,bool)" (?rotateimage@ImageFunc@EasyX@@SAXPEAVIMAGE@@0NK_N1@Z) 中引用了该符号
+EasyXa.lib(EasyX.ImageFunc.obj) : error LNK2019: 无法解析的外部符号 sin，函数 "public: static void __cdecl EasyX::ImageFunc::rotateimage(class IMAGE *,class IMAGE *,double,unsigned long,bool,bool)" (?rotateimage@ImageFunc@EasyX@@SAXPEAVIMAGE@@0NK_N1@Z) 中引用了该符号
+EasyXa.lib(EasyX.DrawOnImg.obj) : error LNK2001: 无法解析的外部符号 sin
+EasyXa.lib(EasyX.GraphWnd.obj) : error LNK2019: 无法解析的外部符号 __acrt_iob_func，函数 "public: struct HWND__ * __cdecl EasyX::GraphWnd::InitGraphWnd(int,int,char *,bool,bool,bool,bool)" (?InitGraphWnd@GraphWnd@EasyX@@QEAAPEAUHWND__@@HHPEAD_N111@Z) 中引用了该符号
+EasyXa.lib(EasyX.GraphWnd.obj) : error LNK2019: 无法解析的外部符号 freopen_s，函数 "public: struct HWND__ * __cdecl EasyX::GraphWnd::InitGraphWnd(int,int,char *,bool,bool,bool,bool)" (?InitGraphWnd@GraphWnd@EasyX@@QEAAPEAUHWND__@@HHPEAD_N111@Z) 中引用了该符号
+EasyXa.lib(EasyX.GraphWnd.obj) : error LNK2019: 无法解析的外部符号 fclose，函数 "public: void __cdecl EasyX::GraphWnd::CloseGraphWnd(void)" (?CloseGraphWnd@GraphWnd@EasyX@@QEAAXXZ) 中引用了该符号
+EasyXa.lib(EasyX.GraphWnd.obj) : error LNK2019: 无法解析的外部符号 exit，函数 "private: static __int64 __cdecl EasyX::GraphWnd::WndProc(struct HWND__ *,unsigned int,unsigned __int64,__int64)" (?WndProc@GraphWnd@EasyX@@CA_JPEAUHWND__@@I_K_J@Z) 中引用了该符号
+EasyXa.lib(EasyX.GraphWnd.obj) : error LNK2019: 无法解析的外部符号 _CxxThrowException，函数 "public: void __cdecl EasyX::GraphWnd::FlushExMessage(unsigned char)" (?FlushExMessage@GraphWnd@EasyX@@QEAAXE@Z) 中引用了该符号
+MSVCRTD.lib(throw_bad_alloc.obj) : error LNK2001: 无法解析的外部符号 _CxxThrowException
+EasyXa.lib(EasyX.DrawOnWnd.obj) : error LNK2019: 无法解析的外部符号 _mbsrchr，函数 "public: virtual struct HWND__ * __cdecl EasyX::DrawOnWnd::initgraph(int,int,int)" (?initgraph@DrawOnWnd@EasyX@@UEAAPEAUHWND__@@HHH@Z) 中引用了该符号
+MSVCRTD.lib(init.obj) : error LNK2019: 无法解析的外部符号 _CrtDbgReport，函数 _CRT_RTC_INIT 中引用了该符号
+MSVCRTD.lib(init.obj) : error LNK2019: 无法解析的外部符号 _CrtDbgReportW，函数 _CRT_RTC_INITW 中引用了该符号
+MSVCRTD.lib(gshandlereh4.obj) : error LNK2019: 无法解析的外部符号 __CxxFrameHandler4，函数 __GSHandlerCheck_EH4 中引用了该符号
+MSVCRTD.lib(new_scalar.obj) : error LNK2019: 无法解析的外部符号 _callnewh，函数 "void * __cdecl operator new(unsigned __int64)" (??2@YAPEAX_K@Z) 中引用了该符号
+MSVCRTD.lib(error.obj) : error LNK2019: 无法解析的外部符号 strcpy_s，函数 "void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPEAXPEBD@Z) 中引用了该符号
+MSVCRTD.lib(error.obj) : error LNK2019: 无法解析的外部符号 strcat_s，函数 "void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPEAXPEBD@Z) 中引用了该符号
+MSVCRTD.lib(error.obj) : error LNK2019: 无法解析的外部符号 __stdio_common_vsprintf_s，函数 _vsprintf_s_l 中引用了该符号
+MSVCRTD.lib(error.obj) : error LNK2001: 无法解析的外部符号 __C_specific_handler_noexcept
+MSVCRTD.lib(delete_scalar.obj) : error LNK2019: 无法解析的外部符号 _free_dbg，函数 "void __cdecl operator delete(void *)" (??3@YAXPEAX@Z) 中引用了该符号
+MSVCRTD.lib(throw_bad_alloc.obj) : error LNK2019: 无法解析的外部符号 __std_exception_copy，函数 "public: __cdecl std::exception::exception(class std::exception const &)" (??0exception@std@@QEAA@AEBV01@@Z) 中引用了该符号
+MSVCRTD.lib(throw_bad_alloc.obj) : error LNK2019: 无法解析的外部符号 __std_exception_destroy，函数 "public: virtual __cdecl std::exception::~exception(void)" (??1exception@std@@UEAA@XZ) 中引用了该符号
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 _wmakepath_s，函数 "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z) 中引用了该符号
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 _wsplitpath_s，函数 "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z) 中引用了该符号
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 wcscpy_s，函数 "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z) 中引用了该符号
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 __vcrt_GetModuleFileNameW，函数 "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ) 中引用了该符号
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 __vcrt_GetModuleHandleW，函数 "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ) 中引用了该符号
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 __vcrt_LoadLibraryExW，函数 "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ) 中引用了该符号
+D:\嵌入式软件开发\项目\snakev2\snakev2\x64\Debug\snakev2.exe : fatal error LNK1120: 51 个无法解析的外部命令

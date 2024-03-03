@@ -1,0 +1,163 @@
+﻿  backgroundMusic.cpp
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(112,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(116,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(120,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  drawInference.cpp
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(22,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(377,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(394,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(493,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  food.cpp
+D:\嵌入式软件开发\项目\snakev2\snakev2\food.cpp(84,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\food.cpp(88,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\food.cpp(94,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\food.cpp(99,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\food.cpp(104,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\food.cpp(109,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  gameLogic.cpp
+  scoreAccess.cpp
+D:\嵌入式软件开发\项目\snakev2\snakev2\scoreAccess.cpp(10,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\scoreAccess.cpp(13,9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\scoreAccess.cpp(29,9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\scoreAccess.cpp(33,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\scoreAccess.cpp(37,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\scoreAccess.cpp(41,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  scoreDetemination.cpp
+  snakeAction.cpp
+  正在生成代码...
+D:\嵌入式软件开发\项目\snakev2\snakev2\scoreAccess.cpp(43,1): warning C4172: 返回局部变量或临时变量的地址: s
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(203,1): warning C4715: “pop_up_window”: 不是所有的控件路径都返回值
+  start.cpp
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/FORCE”规范)
+food.obj : warning LNK4006: "int songTrack" (?songTrack@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int songONorOFF" (?songONorOFF@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int foodx" (?foodx@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int foody" (?foody@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int foodFlag" (?foodFlag@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int leftWall" (?leftWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int rightWall" (?rightWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int topWall" (?topWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int bottomWall" (?bottomWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int leftObstacleOne" (?leftObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int rightObstacleOne" (?rightObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int topObstacleOne" (?topObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int bottomObstacleOne" (?bottomObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int leftObstacleTwo" (?leftObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int rightObstacleTwo" (?rightObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int topObstacleTwo" (?topObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int bottomObstacleTwo" (?bottomObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int levelMax" (?levelMax@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int localLevel" (?localLevel@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int getScore" (?getScore@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int snakeColor" (?snakeColor@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int snakeSpeed" (?snakeSpeed@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int reserveSnake" (?reserveSnake@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "int snakeHeadFlag" (?snakeHeadFlag@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "struct Snake * head" (?head@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+food.obj : warning LNK4006: "struct Snake * tail" (?tail@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int songTrack" (?songTrack@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int songONorOFF" (?songONorOFF@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int foodx" (?foodx@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int foody" (?foody@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int foodFlag" (?foodFlag@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int leftWall" (?leftWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int rightWall" (?rightWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int topWall" (?topWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int bottomWall" (?bottomWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int leftObstacleOne" (?leftObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int rightObstacleOne" (?rightObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int topObstacleOne" (?topObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int bottomObstacleOne" (?bottomObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int leftObstacleTwo" (?leftObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int rightObstacleTwo" (?rightObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int topObstacleTwo" (?topObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int bottomObstacleTwo" (?bottomObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int levelMax" (?levelMax@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int localLevel" (?localLevel@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int getScore" (?getScore@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int snakeColor" (?snakeColor@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int snakeSpeed" (?snakeSpeed@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int reserveSnake" (?reserveSnake@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "int snakeHeadFlag" (?snakeHeadFlag@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "struct Snake * head" (?head@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+gameLogic.obj : warning LNK4006: "struct Snake * tail" (?tail@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int songTrack" (?songTrack@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int songONorOFF" (?songONorOFF@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int foodx" (?foodx@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int foody" (?foody@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int foodFlag" (?foodFlag@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int leftWall" (?leftWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int rightWall" (?rightWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int topWall" (?topWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int bottomWall" (?bottomWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int leftObstacleOne" (?leftObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int rightObstacleOne" (?rightObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int topObstacleOne" (?topObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int bottomObstacleOne" (?bottomObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int leftObstacleTwo" (?leftObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int rightObstacleTwo" (?rightObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int topObstacleTwo" (?topObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int bottomObstacleTwo" (?bottomObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int levelMax" (?levelMax@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int localLevel" (?localLevel@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int getScore" (?getScore@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int snakeColor" (?snakeColor@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int snakeSpeed" (?snakeSpeed@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int reserveSnake" (?reserveSnake@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "int snakeHeadFlag" (?snakeHeadFlag@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "struct Snake * head" (?head@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+scoreDetemination.obj : warning LNK4006: "struct Snake * tail" (?tail@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int songTrack" (?songTrack@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int songONorOFF" (?songONorOFF@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int foodx" (?foodx@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int foody" (?foody@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int foodFlag" (?foodFlag@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int leftWall" (?leftWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int rightWall" (?rightWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int topWall" (?topWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int bottomWall" (?bottomWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int leftObstacleOne" (?leftObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int rightObstacleOne" (?rightObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int topObstacleOne" (?topObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int bottomObstacleOne" (?bottomObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int leftObstacleTwo" (?leftObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int rightObstacleTwo" (?rightObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int topObstacleTwo" (?topObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int bottomObstacleTwo" (?bottomObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int levelMax" (?levelMax@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int localLevel" (?localLevel@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int getScore" (?getScore@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int snakeColor" (?snakeColor@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int snakeSpeed" (?snakeSpeed@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int reserveSnake" (?reserveSnake@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "int snakeHeadFlag" (?snakeHeadFlag@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "struct Snake * head" (?head@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+snakeAction.obj : warning LNK4006: "struct Snake * tail" (?tail@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int songTrack" (?songTrack@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int songONorOFF" (?songONorOFF@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int foodx" (?foodx@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int foody" (?foody@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int foodFlag" (?foodFlag@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int leftWall" (?leftWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int rightWall" (?rightWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int topWall" (?topWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int bottomWall" (?bottomWall@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int leftObstacleOne" (?leftObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int rightObstacleOne" (?rightObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int topObstacleOne" (?topObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int bottomObstacleOne" (?bottomObstacleOne@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int leftObstacleTwo" (?leftObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int rightObstacleTwo" (?rightObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int topObstacleTwo" (?topObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int bottomObstacleTwo" (?bottomObstacleTwo@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int levelMax" (?levelMax@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int localLevel" (?localLevel@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int getScore" (?getScore@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int snakeColor" (?snakeColor@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int snakeSpeed" (?snakeSpeed@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int reserveSnake" (?reserveSnake@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "int snakeHeadFlag" (?snakeHeadFlag@@3HA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "struct Snake * head" (?head@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+start.obj : warning LNK4006: "struct Snake * tail" (?tail@@3PEAUSnake@@EA) 已在 drawInference.obj 中定义；已忽略第二个定义
+D:\嵌入式软件开发\项目\snakev2\snakev2\x64\Debug\snakev2.exe : warning LNK4088: 因 /FORCE 选项生成了映像；映像可能不能运行
+  snakev2.vcxproj -> D:\嵌入式软件开发\项目\snakev2\snakev2\x64\Debug\snakev2.exe

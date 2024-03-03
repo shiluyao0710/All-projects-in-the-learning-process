@@ -1,0 +1,312 @@
+﻿  backgroundMusic.cpp
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(38,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [29]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(38,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(38,3):
+  尝试匹配参数列表“(const char [29], int, int, int)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(41,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [29]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(41,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(41,3):
+  尝试匹配参数列表“(const char [29], int, int, int)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(44,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [31]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(44,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(44,3):
+  尝试匹配参数列表“(const char [31], int, int, int)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(56,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [15]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(56,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(56,3):
+  尝试匹配参数列表“(const char [15], int, int, int)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(59,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [15]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(59,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(59,3):
+  尝试匹配参数列表“(const char [15], int, int, int)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(62,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [16]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(62,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(62,3):
+  尝试匹配参数列表“(const char [16], int, int, int)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(74,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [16]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(74,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(74,3):
+  尝试匹配参数列表“(const char [16], int, int, int)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(77,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [16]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(77,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(77,3):
+  尝试匹配参数列表“(const char [16], int, int, int)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(80,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [17]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(80,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(80,3):
+  尝试匹配参数列表“(const char [17], int, int, int)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(92,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [17]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(92,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(92,3):
+  尝试匹配参数列表“(const char [17], int, int, int)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(95,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [17]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(95,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(95,3):
+  尝试匹配参数列表“(const char [17], int, int, int)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(98,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(98,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(98,3):
+  尝试匹配参数列表“(const char [18], int, int, int)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(113,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“char [100]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(113,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(113,3):
+  尝试匹配参数列表“(char [100], int, int, int)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(117,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“char [100]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(117,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(117,3):
+  尝试匹配参数列表“(char [100], int, int, int)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(121,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“char [100]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(121,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(121,3):
+  尝试匹配参数列表“(char [100], int, int, int)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(112,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(116,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(120,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(133,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [16]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(133,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(133,3):
+  尝试匹配参数列表“(const char [16], int, int, int)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(136,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [16]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(136,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(136,3):
+  尝试匹配参数列表“(const char [16], int, int, int)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(139,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [17]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(139,17):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1):
+  参见“mciSendStringW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\backgroundMusic.cpp(139,3):
+  尝试匹配参数列表“(const char [17], int, int, int)”时
+  
+  drawInference.cpp
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(21,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(22,2): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(249,6):
+  可能是“void settextstyle(int,int,LPCTSTR)”
+  	D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(22,2):
+  	“void settextstyle(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+  		D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(22,24):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(22,2):
+  尝试匹配参数列表“(int, int, const char [5])”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(24,38): error C2665: “textwidth”: 没有重载函数可以转换所有参数类型
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(228,5):
+  可能是“int textwidth(TCHAR)”
+  	D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(24,38):
+  	“int textwidth(TCHAR)”: 无法将参数 1 从“char [50]”转换为“TCHAR”
+  		D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(24,48):
+  		没有使该转换得以执行的上下文
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(227,5):
+  或    “int textwidth(LPCTSTR)”
+  	D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(24,38):
+  	“int textwidth(LPCTSTR)”: 无法将参数 1 从“char [50]”转换为“LPCTSTR”
+  		D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(24,48):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(24,38):
+  尝试匹配参数列表“(char [50])”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(25,37): error C2665: “textheight”: 没有重载函数可以转换所有参数类型
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(230,5):
+  可能是“int textheight(TCHAR)”
+  	D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(25,37):
+  	“int textheight(TCHAR)”: 无法将参数 1 从“char [50]”转换为“TCHAR”
+  		D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(25,48):
+  		没有使该转换得以执行的上下文
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(229,5):
+  或    “int textheight(LPCTSTR)”
+  	D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(25,37):
+  	“int textheight(LPCTSTR)”: 无法将参数 1 从“char [50]”转换为“LPCTSTR”
+  		D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(25,48):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(25,37):
+  尝试匹配参数列表“(char [50])”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(26,2): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(226,6):
+  可能是“void outtextxy(int,int,TCHAR)”
+  	D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(26,2):
+  	“void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [50]”转换为“TCHAR”
+  		D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(26,28):
+  		没有使该转换得以执行的上下文
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(225,6):
+  或    “void outtextxy(int,int,LPCTSTR)”
+  	D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(26,2):
+  	“void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [50]”转换为“LPCTSTR”
+  		D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(26,28):
+  		指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(26,2):
+  尝试匹配参数列表“(int, int, char [50])”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(155,11): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [14]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(155,30):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(9161,1):
+  参见“MessageBoxW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(155,11):
+  尝试匹配参数列表“(HWND, const char [14], const char [5], long)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(169,11): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [11]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(169,30):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(9161,1):
+  参见“MessageBoxW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(169,11):
+  尝试匹配参数列表“(HWND, const char [11], const char [5], long)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(186,11): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [11]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(186,30):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(9161,1):
+  参见“MessageBoxW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(186,11):
+  尝试匹配参数列表“(HWND, const char [11], const char [5], long)”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(271,2): error C2664: “BOOL SetWindowTextW(HWND,LPCWSTR)”: 无法将参数 2 从“const char [7]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(271,29):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(8910,1):
+  参见“SetWindowTextW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(271,2):
+  尝试匹配参数列表“(HWND, const char [7])”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(295,2): error C2664: “BOOL SetWindowTextW(HWND,LPCWSTR)”: 无法将参数 2 从“const char [9]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(295,37):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(8910,1):
+  参见“SetWindowTextW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(295,2):
+  尝试匹配参数列表“(HWND, const char [9])”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(349,2): error C2664: “BOOL SetWindowTextW(HWND,LPCWSTR)”: 无法将参数 2 从“const char [10]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(349,38):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(8910,1):
+  参见“SetWindowTextW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(349,2):
+  尝试匹配参数列表“(HWND, const char [10])”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(368,2): error C2664: “BOOL SetWindowTextW(HWND,LPCWSTR)”: 无法将参数 2 从“const char [9]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(368,33):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(8910,1):
+  参见“SetWindowTextW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(368,2):
+  尝试匹配参数列表“(HWND, const char [9])”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(376,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(387,2): error C2664: “BOOL SetWindowTextW(HWND,LPCWSTR)”: 无法将参数 2 从“const char [9]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(387,33):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(8910,1):
+  参见“SetWindowTextW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(387,2):
+  尝试匹配参数列表“(HWND, const char [9])”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(393,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(417,2): error C2664: “BOOL SetWindowTextW(HWND,LPCWSTR)”: 无法将参数 2 从“const char [9]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(417,37):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(8910,1):
+  参见“SetWindowTextW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(417,2):
+  尝试匹配参数列表“(HWND, const char [9])”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(437,2): error C2664: “BOOL SetWindowTextW(HWND,LPCWSTR)”: 无法将参数 2 从“const char [9]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(437,35):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(8910,1):
+  参见“SetWindowTextW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(437,2):
+  尝试匹配参数列表“(HWND, const char [9])”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(465,2): error C2664: “BOOL SetWindowTextW(HWND,LPCWSTR)”: 无法将参数 2 从“const char [9]”转换为“LPCWSTR”
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(465,30):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(8910,1):
+  参见“SetWindowTextW”的声明
+  D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(465,2):
+  尝试匹配参数列表“(HWND, const char [9])”时
+  
+D:\嵌入式软件开发\项目\snakev2\snakev2\drawInference.cpp(471,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  food.cpp
+  gameLogic.cpp
+  gamePlay.cpp
+  scoreAccess.cpp
+D:\嵌入式软件开发\项目\snakev2\snakev2\scoreAccess.cpp(9,8): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\scoreAccess.cpp(12,9): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\scoreAccess.cpp(28,9): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\scoreAccess.cpp(32,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\scoreAccess.cpp(36,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\嵌入式软件开发\项目\snakev2\snakev2\scoreAccess.cpp(40,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  scoreDetemination.cpp
+  snakeAction.cpp
+  start.cpp

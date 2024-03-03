@@ -1,0 +1,16 @@
+#pragma once
+
+#include "globalDef.h"
+
+
+void addNode(int left, int top, int right, int bottom);//ÃÌº”…ﬂÕ∑
+
+void deleteNode();//…æ≥˝…ﬂŒ≤
+
+void snakeInit();//≥ı ºªØ…ﬂ
+
+void snakeDraw(int left, int top, int right, int bottom, int snakeHeadFlag);//‰÷»æ…ﬂ
+
+void snakePrint();//±È¿˙…ﬂ
+
+void snakeMovement(int left, int top, int right, int bottom);//“∆∂Ø…ﬂ
