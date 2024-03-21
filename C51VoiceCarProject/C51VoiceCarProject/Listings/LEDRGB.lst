@@ -1,0 +1,142 @@
+C51 COMPILER V9.60.7.0   LEDRGB                                                            03/21/2024 10:21:55 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE LEDRGB
+OBJECT MODULE PLACED IN .\Objects\LEDRGB.obj
+COMPILER INVOKED BY: D:\Keil C51\C51\BIN\C51.EXE LEDRGB.c LARGE OMF2 OPTIMIZE(8,SPEED) BROWSE DEBUG PRINT(.\Listings\LED
+                    -RGB.lst) OBJECT(.\Objects\LEDRGB.obj)
+
+line level    source
+
+   1          #include "LEDRGB.h"
+   2          
+   3          /******************************************************************************/
+   4          /* 函数名称  : LED_Init                                                                   */
+   5          /* 函数描述  : 初始化LED灯，R、G、B三种颜色都为低电平，熄灭状态                           */    
+   6          /* 输入参数  : 无                                                                 */
+   7          /* 参数描述  : 无                                                                                     */
+   8          /* 返回值    : 无                                                                         */
+   9          /******************************************************************************/
+  10          void LED_Init()
+  11          {
+  12   1              ColorR = LOW;
+  13   1              ColorG = LOW;
+  14   1              ColorB = LOW;
+  15   1      }
+  16          
+  17          /******************************************************************************/
+  18          /* 函数名称  : LED_X                                                                              */
+  19          /* 函数描述  : 通过每次点亮的灯不一样， 使得拥有闪烁的效果                                        */    
+  20          /* 输入参数  : 无                                                                 */
+  21          /* 参数描述  : 无                                                                                     */
+  22          /* 返回值    : 无                                                                         */
+  23          /******************************************************************************/
+  24          void LED_R()
+  25          {
+  26   1              ColorR = HIGH;
+  27   1              ColorG = LOW;
+  28   1              ColorB = LOW;
+  29   1      }
+  30          
+  31          void LED_G()
+  32          {
+  33   1              ColorR = LOW;
+  34   1              ColorG = HIGH;
+  35   1              ColorB = LOW;
+  36   1      }
+  37          
+  38          void LED_B()
+  39          {
+  40   1              ColorR = LOW;
+  41   1              ColorG = LOW;
+  42   1              ColorB = HIGH;
+  43   1      }
+  44          
+  45          void LED_RG()
+  46          {
+  47   1              ColorR = HIGH;
+  48   1              ColorG = HIGH;
+  49   1              ColorB = LOW;
+  50   1      }
+  51          
+  52          void LED_RB()
+  53          {
+  54   1              ColorR = HIGH;
+C51 COMPILER V9.60.7.0   LEDRGB                                                            03/21/2024 10:21:55 PAGE 2   
+
+  55   1              ColorG = LOW;
+  56   1              ColorB = HIGH;
+  57   1      }
+  58          
+  59          void LED_GB()
+  60          {
+  61   1              ColorR = LOW;
+  62   1              ColorG = HIGH;
+  63   1              ColorB = HIGH;
+  64   1      }
+  65          
+  66          void LED_RGB()
+  67          {
+  68   1              ColorR = HIGH;
+  69   1              ColorG = HIGH;
+  70   1              ColorB = HIGH;
+  71   1      }
+  72          
+  73          void LED_Close()
+  74          {
+  75   1              ColorR = LOW;
+  76   1              ColorG = LOW;
+  77   1              ColorB = LOW;
+  78   1      }
+  79          
+  80          void LED_Show()
+  81          {
+  82   1              LED_R();
+  83   1              Delay40ms();
+  84   1              LED_Close();
+  85   1              Delay40ms();
+  86   1              LED_G();
+  87   1              Delay40ms();
+  88   1              LED_Close();
+  89   1              Delay40ms();
+  90   1              LED_B();
+  91   1              Delay40ms();
+  92   1              LED_Close();
+  93   1              Delay40ms();
+  94   1              LED_RG();
+  95   1              Delay40ms();
+  96   1              LED_Close();
+  97   1              Delay40ms();
+  98   1              LED_RB();
+  99   1              Delay40ms();
+ 100   1              LED_Close();
+ 101   1              Delay40ms();
+ 102   1              LED_GB();
+ 103   1              Delay40ms();
+ 104   1              LED_Close();
+ 105   1              Delay40ms();
+ 106   1              LED_RGB();
+ 107   1              Delay40ms();
+ 108   1              LED_Close();
+ 109   1              Delay40ms();
+ 110   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    147    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+C51 COMPILER V9.60.7.0   LEDRGB                                                            03/21/2024 10:21:55 PAGE 3   
+
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

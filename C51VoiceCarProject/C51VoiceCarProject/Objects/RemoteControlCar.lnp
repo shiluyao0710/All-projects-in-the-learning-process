@@ -1,0 +1,18 @@
+".\Objects\STARTUP.obj",
+".\Objects\start.obj",
+".\Objects\MoveCar.obj",
+".\Objects\Track.obj",
+".\Objects\Follow.obj",
+".\Objects\IIC.obj",
+".\Objects\OLED.obj",
+".\Objects\SG90.obj",
+".\Objects\HCSR04.obj",
+".\Objects\ObstacleAvoidance.obj",
+".\Objects\LEDRGB.obj",
+".\Objects\buzzer.obj",
+".\Objects\SU03T.obj",
+".\Objects\UART.obj",
+".\Objects\DELAY.obj" 
+TO ".\Objects\RemoteControlCar" 
+
+PRINT(".\Listings\RemoteControlCar.map") REMOVEUNUSED 

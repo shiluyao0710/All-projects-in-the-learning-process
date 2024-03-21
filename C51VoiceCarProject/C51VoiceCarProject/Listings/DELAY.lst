@@ -1,0 +1,111 @@
+C51 COMPILER V9.60.7.0   DELAY                                                             03/21/2024 10:21:55 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE DELAY
+OBJECT MODULE PLACED IN .\Objects\DELAY.obj
+COMPILER INVOKED BY: D:\Keil C51\C51\BIN\C51.EXE DELAY.c LARGE OMF2 OPTIMIZE(8,SPEED) BROWSE DEBUG PRINT(.\Listings\DELA
+                    -Y.lst) OBJECT(.\Objects\DELAY.obj)
+
+line level    source
+
+   1          #include "DELAY.h"
+   2          
+   3          /******************************************************************************/
+   4          /* 函数名称  : Delay xx us/ms                                                             */
+   5          /* 函数描述  : 利用软件定时器定时                                                                                         */    
+   6          /* 输入参数  : 无                                                             */
+   7          /* 参数描述  : 无                                                                                     */
+   8          /* 返回值    : 无                                                             */
+   9          /******************************************************************************/
+  10          void Delay10us()                //@11.0592MHz
+  11          {
+  12   1              unsigned char i;
+  13   1              i = 2;
+  14   1              while (--i);
+  15   1      }
+  16          
+  17          void Delay10ms()                //@11.0592MHz
+  18          {
+  19   1              unsigned char i, j;
+  20   1              i = 18;
+  21   1              j = 235;
+  22   1              do
+  23   1              {
+  24   2                      while (--j);
+  25   2              } while (--i);
+  26   1      }
+  27          
+  28          void Delay40ms()                //@11.0592MHz
+  29          {
+  30   1              unsigned char i, j;
+  31   1              i = 72;
+  32   1              j = 181;
+  33   1              do
+  34   1              {
+  35   2                      while (--j);
+  36   2              } while (--i);
+  37   1      }
+  38          
+  39          void Delay100ms()               //@11.0592MHz
+  40          {
+  41   1              unsigned char i, j;
+  42   1      
+  43   1              i = 180;
+  44   1              j = 73;
+  45   1              do
+  46   1              {
+  47   2                      while (--j);
+  48   2              } while (--i);
+  49   1      }
+  50          
+  51          void Delay300ms()               //@11.0592MHz
+  52          {
+  53   1              unsigned char i, j, k;
+  54   1              _nop_();
+C51 COMPILER V9.60.7.0   DELAY                                                             03/21/2024 10:21:55 PAGE 2   
+
+  55   1              i = 3;
+  56   1              j = 26;
+  57   1              k = 223;
+  58   1              do
+  59   1              {
+  60   2                      do
+  61   2                      {
+  62   3                              while (--k);
+  63   3                      } while (--j);
+  64   2              } while (--i);
+  65   1      }
+  66          
+  67          void Delay1000ms()              //@11.0592MHz
+  68          {
+  69   1              unsigned char i, j, k;
+  70   1              _nop_();
+  71   1              i = 8;
+  72   1              j = 1;
+  73   1              k = 243;
+  74   1              do
+  75   1              {
+  76   2                      do
+  77   2                      {
+  78   3                              while (--k);
+  79   3                      } while (--j);
+  80   2              } while (--i);
+  81   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     60    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,111 @@
+C51 COMPILER V9.60.7.0   DHT11                                                             03/17/2024 14:55:41 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE DHT11
+OBJECT MODULE PLACED IN .\Objects\DHT11.obj
+COMPILER INVOKED BY: D:\Keil C51\C51\BIN\C51.EXE DHT11.c LARGE OMF2 OPTIMIZE(8,SPEED) BROWSE DEBUG PRINT(.\Listings\DHT1
+                    -1.lst) OBJECT(.\Objects\DHT11.obj)
+
+line level    source
+
+   1          #include <reg52.h>
+   2          #include "DELAY.h"
+   3          #include "DefineVar.h"
+   4          
+   5          char H[10];
+   6          char T[10];
+   7          char datas[5];
+   8          
+   9          void DHT11_Start()
+  10          {
+  11   1              DHT_11 = 1;
+  12   1              Delay10us();
+  13   1              DHT_11 = 0;
+  14   1              Delay25ms();
+  15   1              DHT_11 = 1;
+  16   1              Delay30us();
+  17   1              
+  18   1      }
+  19          
+  20          void DHT11_Read_Data()
+  21          {
+  22   1              unsigned char i;
+  23   1              unsigned char j;
+  24   1              char tmp;
+  25   1              char flag;
+  26   1              Delay1000ms();
+  27   1              DHT11_Start();
+  28   1              if(DHT_11 == 0)
+  29   1              {
+  30   2                      while(!DHT_11);
+  31   2                      Delay80us();
+  32   2                      for(i=0;i<5;i++)
+  33   2                      {
+  34   3                              for(j=0;j<8;j++)
+  35   3                              {
+  36   4                                      while(!DHT_11);
+  37   4                                      Delay50us();
+  38   4                                      if(DHT_11 == 1)
+  39   4                                      {
+  40   5                                              flag = 1;
+  41   5                                              while(DHT_11);
+  42   5                                      }
+  43   4                                      else
+  44   4                                      {
+  45   5                                              flag = 0;
+  46   5                                      }
+  47   4                                      tmp <<= 1;
+  48   4                                      tmp |= flag;
+  49   4                              }
+  50   3                              datas[i] = tmp;
+  51   3                      }
+  52   2              }
+  53   1      }
+  54          
+C51 COMPILER V9.60.7.0   DHT11                                                             03/17/2024 14:55:41 PAGE 2   
+
+  55          char * DHT11_Hum()
+  56          {
+  57   1              H[0] = 'H';
+  58   1              H[1] = ':';
+  59   1              H[2] = '0' + (datas[0] / 10);
+  60   1              H[3] = '0' + (datas[0] % 10);
+  61   1              H[4] = '.';
+  62   1              H[5] = '0' + (datas[1] / 10);
+  63   1              H[6] = '0' + (datas[1] % 10);
+  64   1              H[7] = '%';
+  65   1              H[8] = '\0';
+  66   1              return H;
+  67   1      }
+  68          
+  69          char * DHT11_Temp()
+  70          {
+  71   1              T[0] = 'T';
+  72   1              T[1] = ':';
+  73   1              T[2] = '0' + (datas[2] / 10);
+  74   1              T[3] = '0' + (datas[2] % 10);
+  75   1              T[4] = '.';
+  76   1              T[5] = '0' + (datas[3] / 10);
+  77   1              T[6] = '0' + (datas[3] % 10);
+  78   1              T[7] = 'C';
+  79   1              T[8] = '\0';
+  80   1              return T;
+  81   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    313    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =     25       4
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

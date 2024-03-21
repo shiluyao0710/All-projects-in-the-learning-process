@@ -1,0 +1,129 @@
+C51 COMPILER V9.60.7.0   SU03T                                                             03/21/2024 10:21:55 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE SU03T
+OBJECT MODULE PLACED IN .\Objects\SU03T.obj
+COMPILER INVOKED BY: D:\Keil C51\C51\BIN\C51.EXE SU03T.c LARGE OMF2 OPTIMIZE(8,SPEED) BROWSE DEBUG PRINT(.\Listings\SU03
+                    -T.lst) OBJECT(.\Objects\SU03T.obj)
+
+line level    source
+
+   1          #include "SU03T.h"
+   2          
+   3          /********************************变量定义****************************************/
+   4          unsigned char mode;
+   5          unsigned char remark;
+   6          
+   7          /******************************************************************************/
+   8          /* 函数名称  : SU03T_Init                                                                 */
+   9          /* 函数描述  : 初始化模式                                                                                                         */    
+  10          /* 输入参数  : 无                                                             */
+  11          /* 参数描述  : 无                                                                                     */
+  12          /* 返回值    : 无                                                             */
+  13          /******************************************************************************/
+  14          void SU03T_Init()
+  15          {
+  16   1              mode = REMOTE_MODE;
+  17   1              remark = 0;
+  18   1      }
+  19          
+  20          /******************************************************************************/
+  21          /* 函数名称  : Mode_Selection                                                             */
+  22          /* 函数描述  : 模式选择，语音模块中的引脚A25、A26、A27、B3负责为MCU输出电平       */    
+  23          /* 输入参数  : 无                                                             */
+  24          /* 参数描述  : 无                                                                                     */
+  25          /* 返回值    : 无                                                             */
+  26          /******************************************************************************/
+  27          void Mode_Selection()
+  28          {
+  29   1              if(A25 == LOW && A26 == HIGH && A27 == HIGH && B3 == HIGH)
+  30   1              {
+  31   2                      mode = TRACKING_MODE;
+  32   2              }
+  33   1              else if(A25 ==HIGH && A26 == LOW && A27 == HIGH && B3 == HIGH)
+  34   1              {
+  35   2                      mode = REMOTE_MODE;
+  36   2              }
+  37   1              else if(A25 == HIGH && A26 == HIGH && A27 == LOW && B3 == HIGH)
+  38   1              {
+  39   2                      mode = FOLLOW_MODE;
+  40   2              }
+  41   1              else if(A25 == HIGH && A26 == HIGH && A27 == HIGH && B3 == LOW)
+  42   1              {
+  43   2                      mode = OBSTACLEAVOIDANCE_MODE;
+  44   2              }
+  45   1              else
+  46   1              {
+  47   2                      mode = mode;
+  48   2              }
+  49   1      }
+  50          
+  51          /******************************************************************************/
+  52          /* 函数名称  : SU03T                                                                              */
+  53          /* 函数描述  : 通过语音模块选择不同的模式，并在OLED屏幕中显示模式                                 */    
+  54          /* 输入参数  : 无                                                             */
+C51 COMPILER V9.60.7.0   SU03T                                                             03/21/2024 10:21:55 PAGE 2   
+
+  55          /* 参数描述  : 无                                                                                     */
+  56          /* 返回值    : 无                                                             */
+  57          /******************************************************************************/
+  58          void SU03T()
+  59          {
+  60   1              Mode_Selection();
+  61   1              switch(mode)
+  62   1              {
+  63   2                      case TRACKING_MODE:
+  64   2                              if(remark != TRACKING_MODE)
+  65   2                              {
+  66   3                                      OLED_Clear_Model();
+  67   3                                      OLED_Show_Str(PAGEROW, COL, "Model:Track");
+  68   3                              }
+  69   2                              remark = TRACKING_MODE;
+  70   2                              Track_Pattern();
+  71   2                      break;
+  72   2                      case REMOTE_MODE:
+  73   2                              if(remark != REMOTE_MODE)
+  74   2                              {
+  75   3                                      OLED_Clear_Model();
+  76   3                                      OLED_Show_Str(PAGEROW, COL, "Model:RemoteCtr");
+  77   3                              }
+  78   2                              remark = REMOTE_MODE;
+  79   2                      break;
+  80   2                      case FOLLOW_MODE:
+  81   2                              if(remark != FOLLOW_MODE)
+  82   2                              {
+  83   3                                      OLED_Clear_Model();
+  84   3                                      OLED_Show_Str(PAGEROW, COL, "Model:Follow");
+  85   3                              }
+  86   2                              remark = FOLLOW_MODE;
+  87   2                              Follow_Pattern();
+  88   2                      break;
+  89   2                      case OBSTACLEAVOIDANCE_MODE:
+  90   2                              if(remark != OBSTACLEAVOIDANCE_MODE)
+  91   2                              {
+  92   3                                      OLED_Clear_Model();
+  93   3                                      OLED_Show_Str(PAGEROW, COL, "Model:ObsAvoid");
+  94   3                              }
+  95   2                              remark = OBSTACLEAVOIDANCE_MODE;
+  96   2                              Obstacle_Avoidance_Pattern();
+  97   2                      break;
+  98   2              }
+  99   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    249    ----
+   CONSTANT SIZE    =     56    ----
+   XDATA SIZE       =      2    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

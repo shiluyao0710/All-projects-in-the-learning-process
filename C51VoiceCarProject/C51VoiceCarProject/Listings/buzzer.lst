@@ -1,0 +1,48 @@
+C51 COMPILER V9.60.7.0   BUZZER                                                            03/21/2024 10:21:55 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE BUZZER
+OBJECT MODULE PLACED IN .\Objects\buzzer.obj
+COMPILER INVOKED BY: D:\Keil C51\C51\BIN\C51.EXE buzzer.c LARGE OMF2 OPTIMIZE(8,SPEED) BROWSE DEBUG PRINT(.\Listings\buz
+                    -zer.lst) OBJECT(.\Objects\buzzer.obj)
+
+line level    source
+
+   1          #include "buzzer.h"
+   2          
+   3          /******************************************************************************/
+   4          /* 函数名称  : Buzzer                                                                             */
+   5          /* 函数描述  : 三次轮询，蜂鸣器响                                                                                         */    
+   6          /* 输入参数  : 无                                                                 */
+   7          /* 参数描述  : 无                                                                                     */
+   8          /* 返回值    : 无                                                                         */
+   9          /******************************************************************************/
+  10          void Buzzer()
+  11          {
+  12   1              unsigned char i;
+  13   1              for(i = 0; i < 3; i++)
+  14   1              {
+  15   2                      Hummer = LOW;
+  16   2                      Delay100ms();
+  17   2                      Hummer = HIGH;
+  18   2                      Delay100ms();
+  19   2              }
+  20   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     28    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----       1
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

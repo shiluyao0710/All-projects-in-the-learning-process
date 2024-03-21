@@ -1,0 +1,59 @@
+C51 COMPILER V9.60.7.0   SPEEDREGULATION                                                   03/14/2024 11:38:41 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE SPEEDREGULATION
+OBJECT MODULE PLACED IN .\Objects\SpeedRegulation.obj
+COMPILER INVOKED BY: D:\Keil C51\C51\BIN\C51.EXE SpeedRegulation.c LARGE OMF2 OPTIMIZE(8,SPEED) BROWSE DEBUG PRINT(.\Lis
+                    -tings\SpeedRegulation.lst) OBJECT(.\Objects\SpeedRegulation.obj)
+
+line level    source
+
+   1          #include <reg52.h>
+   2          #include "MoveCar.h"
+   3          #include "DefineVar.h"
+   4          
+   5          typedef unsigned char u8;
+   6          
+   7          u8 cnt;
+   8          u8 speed;
+   9          u8 last_direction;
+  10          
+  11          void Time0_Init()
+  12          {
+  13   1              TMOD &= 0xF0;           //设置定时器模式
+  14   1              TMOD |= 0x01;           //设置定时器模式
+  15   1              TL0 = 0x33;             //设置定时初值
+  16   1              TH0 = 0xFE;             //设置定时初值
+  17   1              TF0 = 0;                //清除TF0标志
+  18   1              TR0 = 1;                //定时器0开始计时
+  19   1              EA = 1;
+  20   1              ET0 = 1;
+  21   1      
+  22   1      }
+  23          
+  24          void Speed_Regulation(u8 SPEED)
+  25          {
+  26   1              Time0_Init();
+  27   1              speed = SPEED;
+  28   1              cnt = 0;
+  29   1      }
+  30          
+  31          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     33    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =      3    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

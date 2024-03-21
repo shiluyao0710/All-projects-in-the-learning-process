@@ -1,0 +1,10 @@
+".\Objects\STARTUP.obj",
+".\Objects\start.obj",
+".\Objects\MoveCar.obj",
+".\Objects\DELAY.obj",
+".\Objects\UART.obj",
+".\Objects\SpeedDisplay.obj",
+".\Objects\Wireless433M.obj" 
+TO ".\Objects\RemoteControlCar" 
+
+PRINT(".\Listings\RemoteControlCar.map") REMOVEUNUSED 

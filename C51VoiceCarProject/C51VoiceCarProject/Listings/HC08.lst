@@ -1,0 +1,27 @@
+C51 COMPILER V9.60.7.0   HC08                                                              03/18/2024 17:43:16 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE HC08
+OBJECT MODULE PLACED IN .\Objects\HC08.obj
+COMPILER INVOKED BY: D:\Keil C51\C51\BIN\C51.EXE HC08.c LARGE OMF2 OPTIMIZE(8,SPEED) BROWSE DEBUG PRINT(.\Listings\HC08.
+                    -lst) OBJECT(.\Objects\HC08.obj)
+
+line level    source
+
+   1          #include "SG90.h"
+   2          
+   3          void HC08_Heart_Beat_Pack()
+   4          {
+   5   1              unsigned char * speed_point;
+   6   1              unsigned char * pattern_point;
+   7   1              speed_point = Speed_Measure();
+   8   1              pattern_point = Pattern_Car();
+   9   1              Write_Data(speed_point);
+*** WARNING C206 IN LINE 9 OF HC08.c: 'Write_Data': missing function-prototype
+*** ERROR C267 IN LINE 9 OF HC08.c: 'Write_Data': requires ANSI-style prototype
+  10   1              Write_Data("\r\n");
+  11   1              Write_Data(pattern_point);
+  12   1              Write_Data("\r\n");
+  13   1      }
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)

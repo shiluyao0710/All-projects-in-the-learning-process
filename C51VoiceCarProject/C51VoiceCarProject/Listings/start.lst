@@ -1,0 +1,88 @@
+C51 COMPILER V9.60.7.0   START                                                             03/21/2024 10:21:54 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE START
+OBJECT MODULE PLACED IN .\Objects\start.obj
+COMPILER INVOKED BY: D:\Keil C51\C51\BIN\C51.EXE start.c LARGE OMF2 OPTIMIZE(8,SPEED) BROWSE DEBUG PRINT(.\Listings\star
+                    -t.lst) OBJECT(.\Objects\start.obj)
+
+line level    source
+
+   1          #include <reg52.h>
+   2          #include "OLED.h"
+   3          #include "LEDRGB.h"
+   4          #include "DELAY.h"
+   5          #include "SG90.h"
+   6          #include "HCSR04.h"
+   7          #include "SU03T.h"
+   8          #include "UART.h"
+   9          #include "TTLDefine.h"
+  10          
+  11          /**************************位定义***********************************************/
+  12          sbit  D5 = P3^7;
+  13          sbit  D6 = P3^6;
+  14          
+  15          /******************************************************************************/
+  16          /* 函数名称  : Indicator_Light                                                */
+  17          /* 函数描述  : 指示灯闪烁，表示MCU正常启动                                     */
+  18          /* 输入参数  : 无                                                             */
+  19          /* 参数描述  : 无                                                                        */
+  20          /* 返回值    : 无                                                             */
+  21          /******************************************************************************/
+  22          void Indicator_Light()
+  23          {
+  24   1              unsigned char i;
+  25   1              for(i=0;i<3;i++)
+  26   1              {
+  27   2                      D5 = LOW;
+  28   2                      D6 = LOW;
+  29   2                      Delay1000ms();
+  30   2                      D5 = HIGH;
+  31   2                      D6 = HIGH;
+  32   2                      Delay1000ms();
+  33   2              }
+  34   1      }
+  35          
+  36          /******************************************************************************/
+  37          /* 函数名称  : main                                                                       */
+  38          /* 函数描述  : 入口函数                                                       */
+  39          /* 输入参数  : 无                                                             */
+  40          /* 参数描述  : 无                                                                         */
+  41          /* 返回值    : 无                                                            */
+  42          /******************************************************************************/
+  43          void main()
+  44          {
+  45   1              Indicator_Light();//开机指示灯
+  46   1              LED_Init();//避障LED灯              
+  47   1              OLED_Show_Init();//OLED初始化信息
+  48   1              Timer0_Init();//定时器0用于SG90舵机，定时500微秒
+  49   1              Timer2_Init();//定时器2用于HCSR04超声波测距
+  50   1              UART_Init();//串口初始化，用于蓝牙，WIFI，4G控制小车，使用定时器1
+  51   1              SU03T_Init();//语音模块初始化
+  52   1              SG90_Init();//舵机位置初始化
+  53   1              HSCR04_Init();//初始化超声波距离和时间
+  54   1              while(1)//调用语音模块
+C51 COMPILER V9.60.7.0   START                                                             03/21/2024 10:21:54 PAGE 2   
+
+  55   1              {
+  56   2                      SU03T();
+  57   2              }
+  58   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     64    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----       1
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
