@@ -1,8 +1,8 @@
-//参数说明
 //client
 argv[1] argv[2]
  hostip 8877/115.236.153.177 37703
 
+
 //server
 argv[1]
-8877
+hostip 8877
