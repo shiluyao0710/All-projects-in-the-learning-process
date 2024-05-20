@@ -1,0 +1,6 @@
+QFile file("D:/QTcode/NoteBook/Text.txt");
+    QFile file1("D:/QTcode/NoteBook/Text1.txt");
+    QTextStream in(&file);
+    QTextStream out(&file1);
+    in.setCodec("UTF-8");
+    out.setCodec("UTF-8");
